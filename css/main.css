@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #efefef;
+}
+header {
+  background-color: #364552;
+}
+
+.seccion1 {
+  border: 5px;
+  width: auto;
+  display: inline-flex;
+  font-size: 18px;
+  padding: 30px;
+}
+.seccion2 {
+  border: 5px;
+  width: auto;
+  display: inline-flex;
+  font-size: 18px;
+  padding: 30px;
+}
+
+section article {
+  transition: box-shadow 0.3s ease;
+  background-color: beige;
+  margin: 1rem;
+  border-radius: 0.7rem;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+section h2 {
+  text-align: center;
+}
+
+footer p {
+  float: inline;
+}
