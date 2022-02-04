@@ -9,11 +9,34 @@
 </head>
 
 <body>
-    <body bgcolor="D8F261"> 
-    <h1> Iniciar Sesion </h1>
+    <h1> Iniciar Sesión </h1>
 
     <Form>
-        <label for="Correo:"></label>
+        <label for="usuario"
+        ><b>Usuario o Correo</b>
+        <input
+          id="usuario"
+          maxlength="20"
+          placeholder="Escribe tu usuario o correo"
+          type="text"
+        />
+      </label>
+      <br>
+      <label for="password"
+        ><b>Contraseña</b>
+        <input
+          id="password"
+          maxlength="20"
+          placeholder="Escibre una contraseña"
+          type="password"
+        />
+      </label>
+      <br>
+      <input type="button" value="enviar">
+      <a href="registro.html">¡Aun no te has registrado!</a>
+      
+
+        <!-- <label for="Correo:"></label>
         <input type="email" id="Correo" placeholder="Dirección de Correo Electrónico"> <br>
         <label for="Contraseña:"></label>
         <input type="password" id="Contraseña" placeholder="Ingresa tu contraseña"> <br>
@@ -21,9 +44,9 @@
         <select name="Mail"> </select> <br>
             <option value="">Gmail</option>
             <option value="">Outlook</option>
-            <option value="">Yahoo</option>
+            <option value="">Yahoo</option> -->
 
-    <input type="submit">
+    
     
     </Form>
 
