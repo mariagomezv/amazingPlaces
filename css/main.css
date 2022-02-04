@@ -11,21 +11,22 @@ body {
 }
 header {
   background-color: #364552;
+  float: inline;
 }
 
 .seccion1 {
   border: 5px;
-  width: auto;
+  column-width: 33%;
   display: inline-flex;
   font-size: 18px;
-  padding: 30px;
+  padding: 2px;
 }
 .seccion2 {
   border: 5px;
-  width: auto;
+  column-width: 33%;
   display: inline-flex;
   font-size: 18px;
-  padding: 30px;
+  padding: 2px;
 }
 
 section article {
