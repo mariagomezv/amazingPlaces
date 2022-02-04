@@ -7,11 +7,13 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #efefef;
+  background-color: #decfdd;
 }
 header {
-  background-color: #364552;
+  color: #ed217c;
+  background-color: #009fb7;
   float: inline;
+  padding: 2rem;
 }
 
 .seccion1 {
@@ -28,14 +30,40 @@ header {
   font-size: 18px;
   padding: 2px;
 }
-
+section .leer{
+  margin: 0.7rem;
+  background-color: #ffc847;
+  text-decoration: none;
+  border-radius: 2px;
+  text-decoration: #364552;
+}
+section .ins{
+  margin: 0.7rem;
+  background-color: #ffc847;
+  text-decoration: none;
+  border-radius: 2px;
+  text-decoration: #364552;
+}
+section p{
+  margin: 2px;
+  padding: 1px;
+  background-color: #decfdd;
+  text-align: justify;
+}
+section h2{
+  color: #009fb7;
+}
 section article {
   transition: box-shadow 0.3s ease;
-  background-color: beige;
+  background-color: #78bc61;
   margin: 1rem;
   border-radius: 0.7rem;
   padding: 0.25rem 0;
   cursor: pointer;
+}
+section img{
+  display:block;
+  margin:auto
 }
 section article:hover {
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
