@@ -132,4 +132,16 @@ footer a{
   text-decoration: none;
   padding: 1rem;
 }
-
+.nosotros h1{
+  text-align: center;
+}
+.superior {
+  border: 5px;
+  column-width: 50%;
+  display: inline-flexbox;
+  font-size: 18px;
+  padding: 2px;
+}
+.nosotros{
+  text-align: center;
+}
