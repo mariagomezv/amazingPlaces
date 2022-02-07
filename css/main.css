@@ -24,12 +24,13 @@ header {
 header .logo{
   color: #ed217c;
   font-size:20px; 
-  line-height : 150px;
+  line-height : 110px;
   float: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header nav{
   float: right;
-  line-height: 150px;
+  line-height: 110px;
 }
  header nav a{
   display: inline-block;
@@ -69,6 +70,7 @@ section .leer{
   text-decoration: none;
   border-radius: 2px;
   text-decoration: #364552;
+  border-radius: 15px;
 }
 section .ins{
   margin: 0.7rem;
@@ -76,6 +78,7 @@ section .ins{
   text-decoration: none;
   border-radius: 2px;
   text-decoration: #364552;
+  border-radius: 15px;
 }
 section .mod{
   margin: 0.7rem;
@@ -83,12 +86,15 @@ section .mod{
   text-decoration: none;
   border-radius: 2px;
   text-decoration: #364552;
+  border-radius: 15px;
 }
 section p{
   margin: 2px;
   padding: 1px;
   background-color: #decfdd;
   text-align: justify;
+  opacity: 70%;
+  border-radius: 15px;
 }
 section h2{
   color: #009fb7;
@@ -113,7 +119,7 @@ section h2 {
 }
 footer{
   background-color: #009fb7;
-  padding: 3rem;
+  padding: 2.5rem;
   color: #ffff;
 }
 footer section{ 
@@ -126,3 +132,4 @@ footer a{
   text-decoration: none;
   padding: 1rem;
 }
+

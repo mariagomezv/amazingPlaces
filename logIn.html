@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/icon.png" type="image/icon type" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/logIn.css">
     <title>Inicia Sesion</title>
-</head>
+  </head>
 
-<body>
-    <h1> Iniciar Sesión </h1>
-
-    <Form>
-        <label for="usuario"
-        ><b>Usuario o Correo</b>
-        <input
-          id="usuario"
-          maxlength="20"
-          placeholder="Escribe tu usuario o correo"
-          type="text"
-        />
-      </label>
-      <br>
-      <label for="password"
-        ><b>Contraseña</b>
-        <input
-          id="password"
-          maxlength="20"
-          placeholder="Escibre una contraseña"
-          type="password"
-        />
-      </label>
-      <br>
-      <input type="button" value="enviar">
-      <a href="registro.html">¡Aun no te has registrado!</a>
+  <body>
+    <div class="box">
       
+        <h1>Iniciar Sesión</h1> 
+      <form>
+        <label for="usuario"
+          ><b>Usuario o Correo</b>
+          <input
+            id="usuario"
+            maxlength="20"
+            placeholder="Escribe tu usuario o correo"
+            type="text"
+          />
+        </label>
+        <br />
+        <label for="password"
+          ><b>Contraseña</b>
+          <input
+            id="password"
+            maxlength="20"
+            placeholder="Escibre una contraseña"
+            type="password"
+          />
+        </label>
+        <br />
+        <input type="submit" value="enviar" />
+        <div>
+          <a href="registro.html">¡Aun no te has registrado!</a>
+          <a href="forgot.html">Olvide mi contraseña</a>
+        </div>
+    </div>
+    
 
-        <!-- <label for="Correo:"></label>
+      <!-- <label for="Correo:"></label>
         <input type="email" id="Correo" placeholder="Dirección de Correo Electrónico"> <br>
         <label for="Contraseña:"></label>
         <input type="password" id="Contraseña" placeholder="Ingresa tu contraseña"> <br>
@@ -45,16 +55,6 @@
             <option value="">Gmail</option>
             <option value="">Outlook</option>
             <option value="">Yahoo</option> -->
-
-    
-    
-    </Form>
-
-
-
-
-
-
-</body>
-
+    </form>
+  </body>
 </html>

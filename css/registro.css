@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+    background: url(../imgs/ParqueArvi.png) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 500px;
+    height: 700px;
+    background: #000;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  .box h1{
+      margin: 0;
+      padding: 0 0 20px;
+      font-weight: bold;
+      display: block;
+      color: white;
+      text-align: center;
+  }
+  .box label{
+      margin: 0px;
+      padding: 0px;
+      font-weight: bold;
+      display: inline;
+      color: white;
+      width: 20%;
+  }
+  .box input{
+      width: 50%;
+      margin-bottom: 20px;
+  }
+  .box input[type ="text"],
+  .box input[type ="password"],
+  .box input[type ="email"]{
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      font-size: 16px;
+      margin: 15px;
+      width: 50%;
+      align-items: right;
+
+  }
+  .box input[type ="submit"],
+  .box input[type ="reset"]{
+      border: none;
+      padding: -5px;
+      background: #ffc847;
+      height: 40px;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+      display: inline-block;
+      align-items: center;
+  }
+  .box a{
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 20px;
+      color: darkgray;
+      display: inline-block;
+      text-align: center;
+  }
+  .box a:hover{
+      color: #fff;
+  }
