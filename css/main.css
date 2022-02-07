@@ -9,13 +9,46 @@ html {
 body {
   background-color: #decfdd;
 }
-header {
-  color: #ed217c;
+header{
   background-color: #009fb7;
-  float: inline;
-  padding: 2rem;
+  padding: 3rem;
+  line-height: 200px;
+  margin-bottom: 20px;
 }
-
+header {
+  background-color: #009fb7;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+header .logo{
+  color: #ed217c;
+  font-size:20px; 
+  line-height : 150px;
+  float: left;
+}
+header nav{
+  float: right;
+  line-height: 150px;
+}
+ header nav a{
+  display: inline-block;
+  color: #ffff;
+  text-decoration: none;
+  padding: 10px 10px;
+  line-height: normal;
+  font-size: 20px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+header #boton2{
+  margin: 0 50px 0 10px;
+}
+header nav a:hover{
+  background: #ffc847 ;
+  border-radius: 50px;
+} 
 .seccion1 {
   border: 5px;
   column-width: 33%;
@@ -38,6 +71,13 @@ section .leer{
   text-decoration: #364552;
 }
 section .ins{
+  margin: 0.7rem;
+  background-color: #ffc847;
+  text-decoration: none;
+  border-radius: 2px;
+  text-decoration: #364552;
+}
+section .mod{
   margin: 0.7rem;
   background-color: #ffc847;
   text-decoration: none;
@@ -71,7 +111,18 @@ section article:hover {
 section h2 {
   text-align: center;
 }
-
-footer p {
-  float: inline;
+footer{
+  background-color: #009fb7;
+  padding: 3rem;
+  color: #ffff;
+}
+footer section{ 
+  float: right;
+  align-items: center;
+  background: none;
+}
+footer a{
+  color: #ffff;
+  text-decoration: none;
+  padding: 1rem;
 }
