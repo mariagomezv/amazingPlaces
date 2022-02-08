@@ -20,6 +20,7 @@ header {
   width: 100%;
   overflow: hidden;
   margin-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
 }
 header .logo{
   color: #ed217c;
@@ -50,7 +51,11 @@ header nav a:hover{
   background: #ffc847 ;
   border-radius: 50px;
 } 
+div .resp{
+
+}
 .seccion1 {
+  width: fit-content;
   border: 5px;
   column-width: 33%;
   display: inline-flex;
@@ -58,6 +63,7 @@ header nav a:hover{
   padding: 2px;
 }
 .seccion2 {
+  width: fit-content;
   border: 5px;
   column-width: 33%;
   display: inline-flex;
