@@ -16,7 +16,7 @@ header{
 }
 header {
   background-color: #009fb7;
-  width: 100%;
+  width: auto;
   overflow: hidden;
   margin-bottom: 20px;
   border-radius: 0px 0px 20px 20px;
